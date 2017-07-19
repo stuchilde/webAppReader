@@ -27,4 +27,3 @@ app.use(router.get('/ajax/search', function*(){
   this.body = yield service.get_search_data(start, end, keyword);
 }));
 app.listen(3000);
-console.log('nodejs server is started');
